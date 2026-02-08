@@ -31,6 +31,7 @@ const SubjectsList = () => {
         value: searchQuery,
     }] : [];
 
+    
     const subjectTable = useTable<Subject>({
         columns: useMemo<ColumnDef<Subject>[]>(() => [
             {
